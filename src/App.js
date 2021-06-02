@@ -3,11 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import { FlureeConn, FlureeProvider, useFlureeQuery } from '@fluree/react-wrapper';
 
-
-// import '@fluree/react-wrapper/dist/index.css'
 const myconn = new FlureeConn({
   servers: "http://localhost:8090",
-  ledger: "example/ledger",
+  ledger: "time/webinar",
   workerUrl: "/flureeworker.js"
 });
 

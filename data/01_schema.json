@@ -1,0 +1,65 @@
+[
+    {
+        "_id": "_collection",
+        "name": "airport"
+    },
+    {
+        "_id": "_collection",
+        "name": "flight"
+    },
+    {
+        "_id": "_predicate",
+        "name": "airport/name",
+        "type": "string",
+        "unique": true
+    },
+    {
+        "_id": "_predicate",
+        "name": "airport/code",
+        "doc": "IATA airport code for the airport being referenced",
+        "type": "string",
+        "unique": true
+    },
+    {
+        "_id": "_predicate",
+        "name": "airport/city",
+        "doc": "city where the reference airport is located",
+        "type": "string",
+        "unique": true
+    },
+    {
+        "_id": "_predicate",
+        "name": "flight/arrivalAirport",
+        "doc": "Airport where this flight lands",
+        "type": "ref",
+        "component": true,
+        "restrictCollection": "airport"
+    },
+    {
+        "_id": "_predicate",
+        "name": "flight/departureAirport",
+        "doc": "Airport from which this flight departs",
+        "type": "ref",
+        "component": true,
+        "restrictCollection": "airport"
+    },
+    {
+        "_id": "_predicate",
+        "name": "flight/dateTime",
+        "doc": "scheduled departure date and time for the flight",
+        "type": "instant"
+    },
+    {
+        "_id": "_predicate",
+        "name": "flight/price",
+        "doc": "price of flight at time of submission",
+        "type": "int"
+    },
+    {
+        "_id": "_predicate",
+        "name": "flight/status",
+        "doc": "enum to indicate current status of the flight. on-time, cancelled, arrived, departed, or delayed",
+        "type": "tag",
+        "restrictTag": true
+    }
+]

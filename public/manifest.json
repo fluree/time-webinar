@@ -1,6 +1,6 @@
 {
-  "short_name": "@fluree/react-wrapper",
-  "name": "@fluree/react-wrapper",
+  "short_name": "Time Webinar",
+  "name": "Time Webinar",
   "icons": [
     {
       "src": "favicon.ico",

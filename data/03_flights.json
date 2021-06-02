@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 325.00,
+        "status": "on-time",
+        "dateTime": 1609650000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "DEN"],
+        "price": 375.00,
+        "status": "on-time",
+        "dateTime": 1609650000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DEN"],
+        "departureAirport": ["airport/code", "ORD"],
+        "price": 335.00,
+        "status": "on-time",
+        "dateTime": 1609650000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ORD"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 375.00,
+        "status": "on-time",
+        "dateTime": 1609650000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 425.00,
+        "status": "on-time",
+        "dateTime": 1609650000
+    }
+]

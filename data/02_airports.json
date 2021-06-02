@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "airport",
+    "name": "Hartsfield–Jackson Atlanta International Airport",
+    "code": "ATL",
+    "city": "Atlanta"
+  },
+  {
+    "_id": "airport",
+    "name": "Dallas/Fort Worth International Airport",
+    "code": "DFW",
+    "city": "Dallas-Fort Worth"
+  },
+  {
+    "_id": "airport",
+    "name": "Denver International Airport",
+    "code": "DEN",
+    "city": "Denver"
+  },
+  {
+    "_id": "airport",
+    "name": "O'Hare International Airport",
+    "code": "ORD",
+    "city": "Chicago"
+  },
+  {
+    "_id": "airport",
+    "name": "Los Angeles International Airport",
+    "code": "LAX",
+    "city": "Los Angeles"
+  },
+  {
+    "_id": "_tag",
+    "id": "flight/status:cancelled"
+  },
+  {
+    "_id": "_tag",
+    "id": "flight/status:on-time"
+  },
+  {
+    "_id": "_tag",
+    "id": "flight/status:arrived"
+  },
+  {
+    "_id": "_tag",
+    "id": "flight/status:departed"
+  }
+]
