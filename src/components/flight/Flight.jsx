@@ -1,5 +1,7 @@
-import { Card, CardContent, Grid, ListItem, makeStyles, Typography } from "@material-ui/core";
+import { Button, Card, CardActions, CardContent, Grid, ListItem, makeStyles, Typography } from "@material-ui/core";
+import { useState } from "react";
 import Airport from "../airport/Airport";
+import History from "../History";
 
 const useStyles = makeStyles({
     root: {
@@ -12,8 +14,16 @@ const useStyles = makeStyles({
 
 export default function Flight({ flight }) {
     const classes = useStyles();
+    const [open, setOpen] = useState(false);
     const { dateTime } = flight;
     const flightDateTime = new Date(dateTime * 1000);
+
+    const handleShowHistory = () => {
+        setOpen(!open);
+    }
+    const handleClose = () => {
+        setOpen(false);
+    }
     return (
         <ListItem className={classes.root}>
             <Card className={classes.card}>
@@ -46,6 +56,13 @@ export default function Flight({ flight }) {
                             </Typography>
                         </Grid>
                     </Grid>
+
+                    <CardActions>
+                        <Button size="small" color="primary" onClick={handleShowHistory}>
+                            {open ? "Hide History" : "Show History"}
+                        </Button>
+                        {open ? <History flight={flight} /> : null}
+                    </CardActions>
                 </CardContent>
             </Card>
         </ListItem>

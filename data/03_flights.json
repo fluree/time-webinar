@@ -3,40 +3,480 @@
         "_id": "flight",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
-        "price": 325.00,
+        "price": 325,
         "status": "on-time",
-        "dateTime": 1609650000
+        "dateTime": 1624276800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 375,
+        "status": "on-time",
+        "dateTime": 1624302000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 335,
+        "status": "on-time",
+        "dateTime": 1624363200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 385,
+        "status": "on-time",
+        "dateTime": 1624388400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 345,
+        "status": "on-time",
+        "dateTime": 1624449600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 395,
+        "status": "delayed",
+        "dateTime": 1624474800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 355,
+        "status": "on-time",
+        "dateTime": 1624536000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 405,
+        "status": "on-time",
+        "dateTime": 1624561200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 365,
+        "status": "on-time",
+        "dateTime": 1624622400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 415,
+        "status": "on-time",
+        "dateTime": 1624647600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 500,
+        "status": "on-time",
+        "dateTime": 1624276800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 550,
+        "status": "on-time",
+        "dateTime": 1624302000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 510,
+        "status": "on-time",
+        "dateTime": 1624363200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 560,
+        "status": "on-time",
+        "dateTime": 1624388400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 520,
+        "status": "on-time",
+        "dateTime": 1624449600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 570,
+        "status": "cancelled",
+        "dateTime": 1624474800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 530,
+        "status": "on-time",
+        "dateTime": 1624536000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 580,
+        "status": "on-time",
+        "dateTime": 1624561200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 540,
+        "status": "on-time",
+        "dateTime": 1624622400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "DFW"],
+        "price": 590,
+        "status": "on-time",
+        "dateTime": 1624647600
     },
     {
         "_id": "flight",
         "arrivalAirport": ["airport/code", "DFW"],
-        "departureAirport": ["airport/code", "DEN"],
-        "price": 375.00,
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 400,
         "status": "on-time",
-        "dateTime": 1609650000
+        "dateTime": 1624276800
     },
     {
         "_id": "flight",
-        "arrivalAirport": ["airport/code", "DEN"],
-        "departureAirport": ["airport/code", "ORD"],
-        "price": 335.00,
-        "status": "on-time",
-        "dateTime": 1609650000
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 450,
+        "status": "delayed",
+        "dateTime": 1624302000
     },
     {
         "_id": "flight",
-        "arrivalAirport": ["airport/code", "ORD"],
-        "departureAirport": ["airport/code", "LAX"],
-        "price": 375.00,
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 410,
         "status": "on-time",
-        "dateTime": 1609650000
+        "dateTime": 1624363200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 460,
+        "status": "on-time",
+        "dateTime": 1624388400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 420,
+        "status": "cancelled",
+        "dateTime": 1624449600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 470,
+        "status": "delayed",
+        "dateTime": 1624474800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 430,
+        "status": "on-time",
+        "dateTime": 1624536000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 480,
+        "status": "on-time",
+        "dateTime": 1624561200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 440,
+        "status": "on-time",
+        "dateTime": 1624622400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 490,
+        "status": "on-time",
+        "dateTime": 1624647600
     },
     {
         "_id": "flight",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
-        "price": 425.00,
+        "price": 450,
         "status": "on-time",
-        "dateTime": 1609650000
+        "dateTime": 1624276800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 500,
+        "status": "on-time",
+        "dateTime": 1624302000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 460,
+        "status": "on-time",
+        "dateTime": 1624363200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 510,
+        "status": "on-time",
+        "dateTime": 1624388400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 470,
+        "status": "on-time",
+        "dateTime": 1624449600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 520,
+        "status": "on-time",
+        "dateTime": 1624474800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 480,
+        "status": "on-time",
+        "dateTime": 1624536000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 530,
+        "status": "on-time",
+        "dateTime": 1624561200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 490,
+        "status": "on-time",
+        "dateTime": 1624622400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
+        "price": 540,
+        "status": "on-time",
+        "dateTime": 1624647600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 550,
+        "status": "on-time",
+        "dateTime": 1624276800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 600,
+        "status": "on-time",
+        "dateTime": 1624302000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 560,
+        "status": "on-time",
+        "dateTime": 1624363200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 610,
+        "status": "on-time",
+        "dateTime": 1624388400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 570,
+        "status": "on-time",
+        "dateTime": 1624449600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 620,
+        "status": "on-time",
+        "dateTime": 1624474800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 580,
+        "status": "on-time",
+        "dateTime": 1624536000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 630,
+        "status": "on-time",
+        "dateTime": 1624561200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 590,
+        "status": "on-time",
+        "dateTime": 1624622400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "DFW"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 640,
+        "status": "on-time",
+        "dateTime": 1624647600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 600,
+        "status": "on-time",
+        "dateTime": 1624276800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 650,
+        "status": "on-time",
+        "dateTime": 1624302000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 610,
+        "status": "on-time",
+        "dateTime": 1624363200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 660,
+        "status": "on-time",
+        "dateTime": 1624388400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 620,
+        "status": "on-time",
+        "dateTime": 1624449600
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 670,
+        "status": "on-time",
+        "dateTime": 1624474800
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 630,
+        "status": "on-time",
+        "dateTime": 1624536000
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 680,
+        "status": "on-time",
+        "dateTime": 1624561200
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 640,
+        "status": "on-time",
+        "dateTime": 1624622400
+    },
+    {
+        "_id": "flight",
+        "arrivalAirport": ["airport/code", "ATL"],
+        "departureAirport": ["airport/code", "LAX"],
+        "price": 690,
+        "status": "on-time",
+        "dateTime": 1624647600
     }
 ]

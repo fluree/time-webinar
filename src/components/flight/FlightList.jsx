@@ -1,42 +1,43 @@
-import { Container, List, Typography } from "@material-ui/core";
-import { useFlureeQuery } from '@fluree/react-wrapper';
+import { useFlureeQuery } from "@fluree/react-wrapper";
+import { Container, List, makeStyles, Typography } from "@material-ui/core";
 import Flight from "./Flight";
 
+const useStyles = makeStyles({
+    container: {
+        marginTop: '1.5rem'
+    }
+})
+
 export default function FlightList({ block }) {
-    const data = useFlureeQuery({
-        select: [
-            "*",
-            {
-                departureAirport: [
-                    "*"
-                ],
-                arrivalAirport: [
-                    "*"
-                ]
-            }
-        ],
-        from: 'flight',
-        block: block,
-        opts: {
-            compact: true
+    const classes = useStyles();
+	const baseBlockQuery = {
+		select: ["*",
+        {   
+            departureAirport: ["*"],
+            arrivalAirport: ["*"]
         }
-    });
-    const { result, loading } = data;
+    ],
+		from: "flight",
+		block: block
+	};
+
+    const { result, loading } = useFlureeQuery(baseBlockQuery);
 
     if (loading) {
-        return (<Typography variant='body1'>Loading airports</Typography>)
+        return (<div>Still loading Flights</div>)
     } else if (result.length === 0) {
-        return (<Typography variant='body1'>No airports in this block</Typography>)
+        return (<div>No Flights at this block</div>)
     }
 
     return (
-        <Container>
+        <Container className={classes.container}>
             <Typography variant='h5'>
                 Flights:
             </Typography>
+
             <List>
                 {result.map(flight => (
-                    <Flight key={flight._id} flight={flight}></Flight>
+                    <Flight key={flight._id} flight={flight} />
                 ))}
             </List>
         </Container>

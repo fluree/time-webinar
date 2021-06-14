@@ -1,7 +1,7 @@
 import { useFlureeQuery } from '@fluree/react-wrapper';
 import { Grid, Input, makeStyles, Slider, Typography } from '@material-ui/core';
 import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import FlightList from './flight/FlightList';
 
 	const timeTravelQuery = {
@@ -17,12 +17,6 @@ import FlightList from './flight/FlightList';
 		],
 		opts: { ignoreForceTime: true }
 	};
-
-	const baseBlockQuery = {
-		select: ["*"],
-		from: "flight",
-		block: 2
-	}
 
 	const useStyles = makeStyles({
 		slider: {
@@ -53,12 +47,7 @@ export default function TimeTravel({ dateTime, onError }){
 			value: `${max}`,
 			label: `${max}`
 		}
-	];
-
-	// monitors slider value and updates query field with new value from input/slider
-	useEffect(() => {
-		baseBlockQuery.block = sliderValue;
-	}, [sliderValue])
+	];	
 
 	const handleSliderChange = (event, newValue) => {
 		if (typeof newValue === 'number') {
@@ -85,7 +74,7 @@ export default function TimeTravel({ dateTime, onError }){
 		onError = onError ? <onError error={error} /> : <div>{error.message}</div>
 	}
 
-	return error ? onError : (
+	return (
 		<section >
 			<Typography 
 				id="input-slider" 
@@ -94,11 +83,16 @@ export default function TimeTravel({ dateTime, onError }){
 			>
 				Time Traveling across Blocks
 			</Typography>
-			<Grid container spacing={2} alignItems="center"> 
+			<Grid 
+				container 
+				spacing={2} 
+				alignItems="center"
+				id="grid-container"
+				> 
 				<Grid item>
 					<FlightTakeoffIcon />
 				</Grid>
-				<Grid item xs>
+				<Grid item xs id="grid-slider">
 					<Slider 
 						value={sliderValue}
 						valueLabelDisplay="auto"
@@ -110,7 +104,7 @@ export default function TimeTravel({ dateTime, onError }){
 						max={max}
 					/>
 				</Grid>
-				<Grid item>
+				<Grid item id="grid-input-item">
 					<Input
 						className={classes.input}
 						value={sliderValue}

@@ -13,18 +13,6 @@
   },
   {
     "_id": "airport",
-    "name": "Denver International Airport",
-    "code": "DEN",
-    "city": "Denver"
-  },
-  {
-    "_id": "airport",
-    "name": "O'Hare International Airport",
-    "code": "ORD",
-    "city": "Chicago"
-  },
-  {
-    "_id": "airport",
     "name": "Los Angeles International Airport",
     "code": "LAX",
     "city": "Los Angeles"
@@ -44,5 +32,9 @@
   {
     "_id": "_tag",
     "id": "flight/status:departed"
+  },
+  {
+    "_id": "_tag",
+    "id": "flight/status:delayed"
   }
 ]
