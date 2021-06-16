@@ -1,14 +1,28 @@
-import { Button, Card, CardActions, CardContent, Grid, ListItem, makeStyles, Typography } from "@material-ui/core";
+import { Button, Card, CardActions, CardContent, Collapse, Grid, ListItem, makeStyles, Typography } from "@material-ui/core";
 import { useState } from "react";
 import Airport from "../airport/Airport";
 import History from "../History";
 
 const useStyles = makeStyles({
     root: {
-        flexGrow: 1
+        flexGrow: 1,
+        paddingLeft: '0'
     },
     card: {
-        minWidth: '70vw'
+        minWidth: '70vw',
+        maxWidth: '90vw'
+    },
+    history: {
+        width: 'auto',
+        h
+    },
+    airportGrid: {
+        paddingTop: '10px',
+        paddingLeft: '10px'
+    },
+    button: {
+        paddingTop: '10px',
+        paddingLeft: '0px'
     }
 })
 
@@ -21,49 +35,65 @@ export default function Flight({ flight }) {
     const handleShowHistory = () => {
         setOpen(!open);
     }
-    const handleClose = () => {
-        setOpen(false);
-    }
+
     return (
         <ListItem className={classes.root}>
             <Card className={classes.card}>
-                <CardContent>
-                    <Grid container spacing={3}>
-                        <Grid item xs={3}>
-                            <Typography variant='body1'>
+                <CardActions>
+                    <Grid container >
+
+                        <Grid item xs={2} className={classes.airportGrid}>
+                            <Typography variant="body2">
+                                From:
+                            </Typography>
+                            <Airport airport={flight.departureAirport}></Airport>
+                        </Grid>
+
+                        <Grid item xs={3} className={classes.airportGrid}> 
+                            <Typography variant="body2">
+                                To:
+                            </Typography>
+                            <Airport airport={flight.arrivalAirport}></Airport>
+
+                        </Grid>
+
+                        <Grid item xs={4}>
+                            <Typography variant='h6'>
+                                {flight.status}
+                            </Typography>
+                            <Typography variant='h6'>
                                 {new Intl.DateTimeFormat("en-US", {
                                     dateStyle: 'short',
                                     timeStyle: 'medium'
                                 }).format(flightDateTime)}
                             </Typography>
-                            <Airport airport={flight.departureAirport}></Airport>
-                            
                         </Grid>
 
-                        <Grid item xs={3}>
-                            <Typography>
+                        <Grid item xs={2}>
+                            <Typography variant='h6'>
                                 {new Intl.NumberFormat("en-US", {
                                     style: "currency",
                                     currency: "USD"
                                 }).format(flight.price)}
                             </Typography>
-                            <Airport airport={flight.arrivalAirport}></Airport>
+                            <Button 
+                                size="medium" 
+                                color="primary" 
+                                onClick={handleShowHistory}
+                                className={classes.button}>
+                                {open ? "Hide History" : "Show History"}
+                            </Button>
                         </Grid>
 
-                        <Grid item xs={6}>
-                            <Typography>
-                                {flight.status}
-                            </Typography>
-                        </Grid>
                     </Grid>
+                </CardActions>
 
-                    <CardActions>
-                        <Button size="small" color="primary" onClick={handleShowHistory}>
-                            {open ? "Hide History" : "Show History"}
-                        </Button>
-                        {open ? <History flight={flight} /> : null}
-                    </CardActions>
-                </CardContent>
+                <Collapse in={open} timeout="auto" unmountOnExit>
+                    <CardContent className={classes.history}>
+                        <History flight={flight} />
+                    </CardContent>
+                </Collapse>
+
             </Card>
         </ListItem>
     )

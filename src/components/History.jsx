@@ -1,18 +1,18 @@
 import { useFlureeQuery } from "@fluree/react-wrapper";
-import { GridList, GridListTile, List, makeStyles, Typography } from "@material-ui/core";
+import { GridList, GridListTile, makeStyles, Typography } from "@material-ui/core";
 import { nanoid } from "nanoid";
 import FlightHistory from "./flight/FlightHistory";
 
 const useStyles = makeStyles({
     root: {
-        display: 'flex',
         flexWrap: 'wrap',
-        justifyContent: 'space-around',
+        justifyContent: 'center',
         overflow: 'hidden',
+        width: '100%'
     },
     gridList: {
         flexWrap: 'nowrap',
-        transform: 'translateZ(0)'
+        transform: 'translateZ(0)',
     }
 })
 
@@ -29,18 +29,20 @@ export default function History({ flight }) {
     } else if (result.length === 0) {
         return (<Typography variant='body1'>{error}</Typography>)
     } else {
-        let assertedArray = result.map(element => element.asserted);
+        let assertedArray = result.map(({block, asserted}) => (
+            ({block, asserted})
+        ));
         if (assertedArray) {
             return (
-                <article className={classes.root}>
-                    <GridList className={classes.gridList} cols={2}>
-                        {assertedArray.map((flight) => (
+                <div className={classes.root}>
+                    <GridList className={classes.gridList} cols={4}>
+                        {assertedArray.map(element => (
                             <GridListTile key={nanoid()}>
-                                <FlightHistory key={nanoid()} flight={flight} />
+                                <FlightHistory key={nanoid()} flight={element} />
                             </GridListTile>
                         ))}
                     </GridList>
-                </article>
+                </div>
             )
         } else return <p>{result.toString()}</p>
 

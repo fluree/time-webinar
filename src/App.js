@@ -1,8 +1,11 @@
+import themeObject from '@fluree/mui-theme';
 import { FlureeConn, FlureeProvider } from '@fluree/react-wrapper';
-import { makeStyles } from '@material-ui/core';
+import { AppBar, createMuiTheme, makeStyles, ThemeProvider, Toolbar } from '@material-ui/core';
 import React from 'react';
 import './App.css';
 import TimeTravel from './components/TimeTravel';
+// import FlureeIcon from './FlureeIcon';
+
 
 const myconn = new FlureeConn({
   servers: "http://localhost:8090",
@@ -13,25 +16,42 @@ const myconn = new FlureeConn({
 let useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    margin: '5vh 5vw'
   },
   header: {
-    height: '10vh',
-    backgroundColor: '#13C6FF'
+    height: '3.5rem',
+    backgroundColor: '#091133'
+  },
+  menuButton: {
+    marginRight: theme.spacing(1)
+  },
+  logo: {
+    width: '24px',
+    height: '24px'
   }
 }));
 
 const App = () => {
+  const flureeTheme = createMuiTheme(themeObject);
   const classes = useStyles();
   return (
-    <div>
-      <header className={classes.header}></header>
-      <main className={classes.root}>
-        <FlureeProvider conn={myconn}>
-          <TimeTravel></TimeTravel>
-        </FlureeProvider>
-      </main>
-    </div>
+    <ThemeProvider theme={flureeTheme}>
+      <FlureeProvider conn={myconn}>
+        <main className={classes.root}>
+          {/* <AppBar position='static' >
+            <Toolbar className={classes.header}> */}
+              {/* <img src="./logo.svg" className={classes.logo} onerror="this.onerror=null; this.src='./White Horizontal.png'"/> */}
+
+                {/* <FlureeIcon /> */}
+             
+              {/* <IconButton edge='start' className={classes.menuButton}> */}
+                
+              {/* </IconButton> */}
+            {/* </Toolbar>
+          </AppBar> */}
+          <TimeTravel />
+        </main>
+      </FlureeProvider>
+    </ThemeProvider>
   )
 }
 

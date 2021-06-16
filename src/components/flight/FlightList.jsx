@@ -4,7 +4,9 @@ import Flight from "./Flight";
 
 const useStyles = makeStyles({
     container: {
-        marginTop: '1.5rem'
+        marginTop: '1.5rem',
+        marginLeft: '0',
+        marginRight: '0'
     }
 })
 

@@ -4,9 +4,9 @@ import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
 import { useState } from 'react';
 import FlightList from './flight/FlightList';
 
-	const timeTravelQuery = {
-		selectOne: ["?maxBlock", "?lastBlockTime", "?firstBlockTime"],
-		where: [
+const timeTravelQuery = {
+	selectOne: ["?maxBlock", "?lastBlockTime", "?firstBlockTime"],
+	where: [
 		["?s", "_block/number", "?bNum"],
 		["?maxBlock", "#(max ?bNum)"],
 		["?minBlock", "#(min ?bNum)"],
@@ -14,21 +14,29 @@ import FlightList from './flight/FlightList';
 		["?maxS", "_block/instant", "?lastBlockTime"],
 		["?minS", "_block/number", "?minBlock"],
 		["?minS", "_block/instant", "?firstBlockTime"]
-		],
-		opts: { ignoreForceTime: true }
-	};
+	],
+	opts: { ignoreForceTime: true }
+};
 
-	const useStyles = makeStyles({
-		slider: {
-			width: '80vw'
-		},
-		input: {
-			width: '2rem',
-			marginLeft: '1vw'
-		}
-	});
+const useStyles = makeStyles({
+	timetravel: {
+		flexGrow: 1,
+		margin: '4vh 4vw'
+	},
+	slider: {
+		width: '80vw'
+	},
+	inputGrid: {
+		paddingBottom: '1vh'
+	},
+	input: {
+		width: '2rem',
+		marginLeft: '1vw',
+		marginBottom: '5vh'
+	}
+});
 
-export default function TimeTravel({ dateTime, onError }){
+export default function TimeTravel({ dateTime, onError }) {
 	const classes = useStyles();
 	const [sliderValue, setSliderValue] = useState(2);
 
@@ -41,13 +49,13 @@ export default function TimeTravel({ dateTime, onError }){
 	const marks = [
 		{
 			value: `${min}`,
-			label: `${min}`
+			label: `Block ${min}`
 		},
 		{
 			value: `${max}`,
-			label: `${max}`
+			label: `Block ${max}`
 		}
-	];	
+	];
 
 	const handleSliderChange = (event, newValue) => {
 		if (typeof newValue === 'number') {
@@ -66,7 +74,7 @@ export default function TimeTravel({ dateTime, onError }){
 			setSliderValue(2);
 		} else if (sliderValue > maxBlock) {
 			setSliderValue(maxBlock);
-		}	
+		}
 	};
 
 	if (error) {
@@ -75,27 +83,27 @@ export default function TimeTravel({ dateTime, onError }){
 	}
 
 	return (
-		<section >
-			<Typography 
-				id="input-slider" 
+		<section className={classes.timetravel}>
+			<Typography
+				id="input-slider"
 				gutterBottom
 				variant='h4'
 			>
 				Time Traveling across Blocks
 			</Typography>
-			<Grid 
-				container 
-				spacing={2} 
+			<Grid
+				container
+				spacing={2}
 				alignItems="center"
 				id="grid-container"
-				> 
+			>
 				<Grid item>
 					<FlightTakeoffIcon />
 				</Grid>
 				<Grid item xs id="grid-slider">
-					<Slider 
+					<Slider
 						value={sliderValue}
-						valueLabelDisplay="auto"
+						valueLabelDisplay="on"
 						onChange={handleSliderChange}
 						step={1}
 						marks={marks}
@@ -119,7 +127,7 @@ export default function TimeTravel({ dateTime, onError }){
 						}}
 					/>
 				</Grid>
-			</Grid> 
+			</Grid>
 			{/* <AirportList block={sliderValue} /> */}
 			<FlightList block={sliderValue} />
 		</section>
