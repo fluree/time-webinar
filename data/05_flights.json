@@ -1,0 +1,362 @@
+[
+  {
+    "_id": ["flight/uuid", "dfw-atl-001"],
+    "flight/dateTime": 1624647600,
+    "flight/price": 386,
+    "flight/status": "cancelled"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-002"],
+    "flight/dateTime": 1624622400,
+    "flight/price": 534,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-003"],
+    "flight/dateTime": 1624561200,
+    "flight/price": 687,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-004"],
+    "flight/dateTime": 1624536000,
+    "flight/price": 698,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-005"],
+    "flight/dateTime": 1624474800,
+    "flight/price": 645,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-006"],
+    "flight/dateTime": 1624449600,
+    "flight/price": 687,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-007"],
+    "flight/dateTime": 1624388400,
+    "flight/price": 698,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-008"],
+    "flight/dateTime": 1624363200,
+    "flight/price": 623,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-009"],
+    "flight/dateTime": 1624302000,
+    "flight/price": 645,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-atl-010"],
+    "flight/dateTime": 1624276800,
+    "flight/price": 567,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-001"],
+    "flight/dateTime": 1624647600,
+    "flight/price": 623,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-002"],
+    "flight/dateTime": 1624622400,
+    "flight/price": 546,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-003"],
+    "flight/dateTime": 1624561200,
+    "flight/price": 697,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-004"],
+    "flight/dateTime": 1624536000,
+    "flight/price": 590,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-005"],
+    "flight/dateTime": 1624474800,
+    "flight/price": 698,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-006"],
+    "flight/dateTime": 1624449600,
+    "flight/price": 589,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-007"],
+    "flight/dateTime": 1624388400,
+    "flight/price": 676,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-008"],
+    "flight/dateTime": 1624363200,
+    "flight/price": 534,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-009"],
+    "flight/dateTime": 1624302000,
+    "flight/price": 594,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "dfw-lax-010"],
+    "flight/dateTime": 1624276800,
+    "flight/price": 556,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-001"],
+    "flight/dateTime": 1624647600,
+    "flight/price": 544,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-002"],
+    "flight/dateTime": 1624622400,
+    "flight/price": 422,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-003"],
+    "flight/dateTime": 1624561200,
+    "flight/price": 565,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-004"],
+    "flight/dateTime": 1624536000,
+    "flight/price": 478,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-005"],
+    "flight/dateTime": 1624474800,
+    "flight/price": 537,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-006"],
+    "flight/dateTime": 1624449600,
+    "flight/price": 473,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-007"],
+    "flight/dateTime": 1624388400,
+    "flight/price": 578,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-008"],
+    "flight/dateTime": 1624363200,
+    "flight/price": 407,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-009"],
+    "flight/dateTime": 1624302000,
+    "flight/price": 478,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-dfw-010"],
+    "flight/dateTime": 1624276800,
+    "flight/price": 446,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-001"],
+    "flight/dateTime": 1624647600,
+    "flight/price": 446,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-002"],
+    "flight/dateTime": 1624622400,
+    "flight/price": 457,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-003"],
+    "flight/dateTime": 1624561200,
+    "flight/price": 437,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-004"],
+    "flight/dateTime": 1624536000,
+    "flight/price": 473,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-005"],
+    "flight/dateTime": 1624474800,
+    "flight/price": 473,
+    "flight/status": "delayed"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-006"],
+    "flight/dateTime": 1624449600,
+    "flight/price": 458,
+    "flight/status": "cancelled"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-007"],
+    "flight/dateTime": 1624388400,
+    "flight/price": 450,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-008"],
+    "flight/dateTime": 1624363200,
+    "flight/price": 449,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-009"],
+    "flight/dateTime": 1624302000,
+    "flight/price": 438,
+    "flight/status": "delayed"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-010"],
+    "flight/dateTime": 1624276800,
+    "flight/price": 338,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "atl-lax-011"],
+    "flight/dateTime": 1624647600,
+    "flight/price": 573,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-001"],
+    "flight/dateTime": 1624622400,
+    "flight/price": 537,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-002"],
+    "flight/dateTime": 1624561200,
+    "flight/price": 538,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-003"],
+    "flight/dateTime": 1624536000,
+    "flight/price": 537,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-004"],
+    "flight/dateTime": 1624474800,
+    "flight/price": 548,
+    "flight/status": "cancelled"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-005"],
+    "flight/dateTime": 1624449600,
+    "flight/price": 584,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-006"],
+    "flight/dateTime": 1624388400,
+    "flight/price": 548,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-007"],
+    "flight/dateTime": 1624363200,
+    "flight/price": 569,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-008"],
+    "flight/dateTime": 1624302000,
+    "flight/price": 549,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-dfw-009"],
+    "flight/dateTime": 1624276800,
+    "flight/price": 460,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-001"],
+    "flight/dateTime": 1624647600,
+    "flight/price": 460,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-002"],
+    "flight/dateTime": 1624622400,
+    "flight/price": 338,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-003"],
+    "flight/dateTime": 1624561200,
+    "flight/price": 334,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-004"],
+    "flight/dateTime": 1624536000,
+    "flight/price": 314,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-005"],
+    "flight/dateTime": 1624474800,
+    "flight/price": 326,
+    "flight/status": "delayed"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-006"],
+    "flight/dateTime": 1624449600,
+    "flight/price": 362,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-007"],
+    "flight/dateTime": 1624388400,
+    "flight/price": 365,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-008"],
+    "flight/dateTime": 1624363200,
+    "flight/price": 378,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-009"],
+    "flight/dateTime": 1624302000,
+    "flight/price": 389,
+    "flight/status": "on-time"
+  },
+  {
+    "_id": ["flight/uuid", "lax-atl-010"],
+    "flight/dateTime": 1624276800,
+    "flight/price": 367,
+    "flight/status": "on-time"
+  }
+]

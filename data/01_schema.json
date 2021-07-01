@@ -61,5 +61,12 @@
         "doc": "enum to indicate current status of the flight. on-time, cancelled, arrived, departed, or delayed",
         "type": "tag",
         "restrictTag": true
+    },
+    {
+        "_id": "_predicate",
+        "name": "flight/uuid",
+        "doc": "unique id used to create dummy data - not needed for normal ops",
+        "type": "uuid",
+        "unique": true
     }
 ]

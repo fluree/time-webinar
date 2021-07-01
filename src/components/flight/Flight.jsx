@@ -14,7 +14,6 @@ const useStyles = makeStyles({
     },
     history: {
         width: 'auto',
-        h
     },
     airportGrid: {
         paddingTop: '10px',

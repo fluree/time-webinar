@@ -10,8 +10,18 @@ const useStyles = makeStyles({
     }
 })
 
+/**
+ * This component is responsible for the UI of the list of flights in the block specified
+ * The parent component will pass in a new block as the slider is updated
+ * @param {block}  
+ * @returns 
+ */
 export default function FlightList({ block }) {
     const classes = useStyles();
+
+    /**
+     * This query will be updated by the block number passed in by the parent component
+     */
 	const baseBlockQuery = {
 		select: ["*",
         {   
@@ -23,6 +33,10 @@ export default function FlightList({ block }) {
 		block: block
 	};
 
+    /**
+     * This is the hook from the Fluree React Wrapper which will be stored in the webworker
+     * and update the UI, if that data changes.
+     */
     const { result, loading } = useFlureeQuery(baseBlockQuery);
 
     if (loading) {

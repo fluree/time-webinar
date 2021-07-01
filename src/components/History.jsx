@@ -16,6 +16,11 @@ const useStyles = makeStyles({
     }
 })
 
+/**
+ * Component which pulls in the history of the flight passed to it. 
+ * @param {flight}  
+ * @returns 
+ */
 export default function History({ flight }) {
     const classes = useStyles();
     const historyQuery = {

@@ -1,6 +1,7 @@
 [
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-001",
+        "uuid": "dfw-atl-001",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 325,
@@ -8,7 +9,8 @@
         "dateTime": 1624276800
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-002",
+        "uuid": "dfw-atl-002",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 375,
@@ -16,7 +18,8 @@
         "dateTime": 1624302000
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-003",
+        "uuid": "dfw-atl-003",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 335,
@@ -24,7 +27,8 @@
         "dateTime": 1624363200
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-004",
+        "uuid": "dfw-atl-004",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 385,
@@ -32,7 +36,8 @@
         "dateTime": 1624388400
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-005",
+        "uuid": "dfw-atl-005",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 345,
@@ -40,7 +45,8 @@
         "dateTime": 1624449600
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-006",
+        "uuid": "dfw-atl-006",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 395,
@@ -48,7 +54,8 @@
         "dateTime": 1624474800
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-007",
+        "uuid": "dfw-atl-007",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 355,
@@ -56,7 +63,8 @@
         "dateTime": 1624536000
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-008",
+        "uuid": "dfw-atl-008",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 405,
@@ -64,7 +72,8 @@
         "dateTime": 1624561200
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-009",
+        "uuid": "dfw-atl-009",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 365,
@@ -72,7 +81,8 @@
         "dateTime": 1624622400
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-atl-010",
+        "uuid": "dfw-atl-010",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 415,
@@ -80,7 +90,8 @@
         "dateTime": 1624647600
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-001",
+        "uuid": "dfw-lax-001",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 500,
@@ -88,7 +99,8 @@
         "dateTime": 1624276800
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-002",
+        "uuid": "dfw-lax-002",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 550,
@@ -96,7 +108,8 @@
         "dateTime": 1624302000
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-003",
+        "uuid": "dfw-lax-003",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 510,
@@ -104,7 +117,8 @@
         "dateTime": 1624363200
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-004",
+        "uuid": "dfw-lax-004",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 560,
@@ -112,7 +126,8 @@
         "dateTime": 1624388400
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-005",
+        "uuid": "dfw-lax-005",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 520,
@@ -120,7 +135,8 @@
         "dateTime": 1624449600
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-006",
+        "uuid": "dfw-lax-006",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 570,
@@ -128,7 +144,8 @@
         "dateTime": 1624474800
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-007",
+        "uuid": "dfw-lax-007",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 530,
@@ -136,7 +153,8 @@
         "dateTime": 1624536000
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-008",
+        "uuid": "dfw-lax-008",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 580,
@@ -144,7 +162,8 @@
         "dateTime": 1624561200
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-009",
+        "uuid": "dfw-lax-009",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 540,
@@ -152,7 +171,8 @@
         "dateTime": 1624622400
     },
     {
-        "_id": "flight",
+        "_id": "flight$dfw-lax-010",
+        "uuid": "dfw-lax-010",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "DFW"],
         "price": 590,
@@ -160,7 +180,8 @@
         "dateTime": 1624647600
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-001",
+        "uuid": "atl-dfw-001",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 400,
@@ -168,7 +189,8 @@
         "dateTime": 1624276800
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-002",
+        "uuid": "atl-dfw-002",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 450,
@@ -176,7 +198,8 @@
         "dateTime": 1624302000
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-003",
+        "uuid": "atl-dfw-003",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 410,
@@ -184,7 +207,8 @@
         "dateTime": 1624363200
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-004",
+        "uuid": "atl-dfw-004",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 460,
@@ -192,7 +216,8 @@
         "dateTime": 1624388400
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-005",
+        "uuid": "atl-dfw-005",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 420,
@@ -200,7 +225,8 @@
         "dateTime": 1624449600
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-006",
+        "uuid": "atl-dfw-006",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 470,
@@ -208,7 +234,8 @@
         "dateTime": 1624474800
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-007",
+        "uuid": "atl-dfw-007",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 430,
@@ -216,7 +243,8 @@
         "dateTime": 1624536000
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-008",
+        "uuid": "atl-dfw-008",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 480,
@@ -224,7 +252,8 @@
         "dateTime": 1624561200
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-009",
+        "uuid": "atl-dfw-009",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 440,
@@ -232,7 +261,8 @@
         "dateTime": 1624622400
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-dfw-010",
+        "uuid": "atl-dfw-010",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 490,
@@ -240,7 +270,8 @@
         "dateTime": 1624647600
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-001",
+        "uuid": "atl-lax-001",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 450,
@@ -248,7 +279,8 @@
         "dateTime": 1624276800
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-002",
+        "uuid": "atl-lax-002",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 500,
@@ -256,7 +288,8 @@
         "dateTime": 1624302000
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-003",
+        "uuid": "atl-lax-003",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 460,
@@ -264,7 +297,8 @@
         "dateTime": 1624363200
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-004",
+        "uuid": "atl-lax-004",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 510,
@@ -272,7 +306,8 @@
         "dateTime": 1624388400
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-005",
+        "uuid": "atl-lax-005",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 470,
@@ -280,7 +315,8 @@
         "dateTime": 1624449600
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-006",
+        "uuid": "atl-lax-006",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 520,
@@ -288,7 +324,8 @@
         "dateTime": 1624474800
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-007",
+        "uuid": "atl-lax-007",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 480,
@@ -296,7 +333,8 @@
         "dateTime": 1624536000
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-008",
+        "uuid": "atl-lax-008",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 530,
@@ -304,7 +342,8 @@
         "dateTime": 1624561200
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-009",
+        "uuid": "atl-lax-009",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 490,
@@ -312,7 +351,8 @@
         "dateTime": 1624622400
     },
     {
-        "_id": "flight",
+        "_id": "flight$atl-lax-010",
+        "uuid": "atl-lax-010",
         "arrivalAirport": ["airport/code", "LAX"],
         "departureAirport": ["airport/code", "ATL"],
         "price": 540,
@@ -320,15 +360,17 @@
         "dateTime": 1624647600
     },
     {
-        "_id": "flight",
-        "arrivalAirport": ["airport/code", "DFW"],
-        "departureAirport": ["airport/code", "LAX"],
+        "_id": "flight$atl-lax-011",
+        "uuid": "atl-lax-011",
+        "arrivalAirport": ["airport/code", "LAX"],
+        "departureAirport": ["airport/code", "ATL"],
         "price": 550,
         "status": "on-time",
         "dateTime": 1624276800
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-001",
+        "uuid": "lax-dfw-001",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 600,
@@ -336,7 +378,8 @@
         "dateTime": 1624302000
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-002",
+        "uuid": "lax-dfw-002",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 560,
@@ -344,7 +387,8 @@
         "dateTime": 1624363200
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-003",
+        "uuid": "lax-dfw-003",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 610,
@@ -352,7 +396,8 @@
         "dateTime": 1624388400
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-004",
+        "uuid": "lax-dfw-004",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 570,
@@ -360,7 +405,8 @@
         "dateTime": 1624449600
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-005",
+        "uuid": "lax-dfw-005",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 620,
@@ -368,7 +414,8 @@
         "dateTime": 1624474800
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-006",
+        "uuid": "lax-dfw-006",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 580,
@@ -376,7 +423,8 @@
         "dateTime": 1624536000
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-007",
+        "uuid": "lax-dfw-007",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 630,
@@ -384,7 +432,8 @@
         "dateTime": 1624561200
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-008",
+        "uuid": "lax-dfw-008",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 590,
@@ -392,7 +441,8 @@
         "dateTime": 1624622400
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-dfw-009",
+        "uuid": "lax-dfw-009",
         "arrivalAirport": ["airport/code", "DFW"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 640,
@@ -400,7 +450,8 @@
         "dateTime": 1624647600
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-001",
+        "uuid": "lax-atl-001",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 600,
@@ -408,7 +459,8 @@
         "dateTime": 1624276800
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-002",
+        "uuid": "lax-atl-002",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 650,
@@ -416,7 +468,8 @@
         "dateTime": 1624302000
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-003",
+        "uuid": "lax-atl-003",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 610,
@@ -424,7 +477,8 @@
         "dateTime": 1624363200
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-004",
+        "uuid": "lax-atl-004",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 660,
@@ -432,7 +486,8 @@
         "dateTime": 1624388400
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-005",
+        "uuid": "lax-atl-005",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 620,
@@ -440,7 +495,8 @@
         "dateTime": 1624449600
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-006",
+        "uuid": "lax-atl-006",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 670,
@@ -448,7 +504,8 @@
         "dateTime": 1624474800
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-007",
+        "uuid": "lax-atl-007",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 630,
@@ -456,7 +513,8 @@
         "dateTime": 1624536000
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-008",
+        "uuid": "lax-atl-008",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 680,
@@ -464,7 +522,8 @@
         "dateTime": 1624561200
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-009",
+        "uuid": "lax-atl-009",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 640,
@@ -472,7 +531,8 @@
         "dateTime": 1624622400
     },
     {
-        "_id": "flight",
+        "_id": "flight$lax-atl-010",
+        "uuid": "lax-atl-010",
         "arrivalAirport": ["airport/code", "ATL"],
         "departureAirport": ["airport/code", "LAX"],
         "price": 690,

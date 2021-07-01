@@ -6,7 +6,6 @@ export default function Airport({ airport }) {
             <Typography variant='h5'>
                 {airport.code}
             </Typography>
-            
         </section>
     )
 }

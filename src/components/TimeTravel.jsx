@@ -4,6 +4,12 @@ import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
 import { useState } from 'react';
 import FlightList from './flight/FlightList';
 
+
+/**
+ * This is a query which maintains a connection via the webworker in order to 
+ * set the length of the slider in the UI. If a block is added to the ledger, this will
+ * update the slider accordingly
+ */
 const timeTravelQuery = {
 	selectOne: ["?maxBlock", "?lastBlockTime", "?firstBlockTime"],
 	where: [
@@ -40,6 +46,12 @@ export default function TimeTravel({ dateTime, onError }) {
 	const classes = useStyles();
 	const [sliderValue, setSliderValue] = useState(2);
 
+	/**
+	 * useFlureeQuery is a hook from the Fluree React wrapper.
+	 * It will issue the query and store it in the webworker.
+	 * If the underlying data for the query is updated, this will update 
+	 * the React components as well. 
+	 */
 	const { result, loading, error } = useFlureeQuery(timeTravelQuery);
 
 	const defaultResult = [2, new Date().valueOf(), 1451624400000];

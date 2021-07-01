@@ -1,15 +1,18 @@
 import themeObject from '@fluree/mui-theme';
 import { FlureeConn, FlureeProvider } from '@fluree/react-wrapper';
-import { AppBar, createMuiTheme, makeStyles, ThemeProvider, Toolbar } from '@material-ui/core';
+import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core';
 import React from 'react';
 import './App.css';
 import TimeTravel from './components/TimeTravel';
-// import FlureeIcon from './FlureeIcon';
 
-
+/**
+ *  This function establishes a connection to the fluree webworker
+ * You will need to create a new ledger on you Fluree instace named 
+ * the same as the value in "ledger"
+ */
 const myconn = new FlureeConn({
   servers: "http://localhost:8090",
-  ledger: "time/webinar2",
+  ledger: "time/webinar",
   workerUrl: "/flureeworker.js"
 });
 
@@ -37,17 +40,6 @@ const App = () => {
     <ThemeProvider theme={flureeTheme}>
       <FlureeProvider conn={myconn}>
         <main className={classes.root}>
-          {/* <AppBar position='static' >
-            <Toolbar className={classes.header}> */}
-              {/* <img src="./logo.svg" className={classes.logo} onerror="this.onerror=null; this.src='./White Horizontal.png'"/> */}
-
-                {/* <FlureeIcon /> */}
-             
-              {/* <IconButton edge='start' className={classes.menuButton}> */}
-                
-              {/* </IconButton> */}
-            {/* </Toolbar>
-          </AppBar> */}
           <TimeTravel />
         </main>
       </FlureeProvider>
